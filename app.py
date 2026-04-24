@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+
     return "Version 2"
 
 if __name__ == "__main__":
